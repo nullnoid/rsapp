@@ -1,0 +1,2 @@
+# rsapp
+Rust application template
