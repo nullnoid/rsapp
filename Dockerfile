@@ -25,6 +25,6 @@ RUN addgroup -g 1001 appuser && adduser -D -s /bin/sh -u 1001 -G appuser appuser
 USER appuser
 
 WORKDIR /app
-COPY --from=builder /usr/local/cargo/bin/rsapp .
+COPY --from=builder /usr/local/cargo/bin/{{project-name}} .
 
-ENTRYPOINT [ "./rsapp" ]
+ENTRYPOINT [ "./{{project-name}}" ]

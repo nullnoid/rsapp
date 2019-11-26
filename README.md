@@ -1,3 +1,3 @@
-# rsapp
+# {{project-name}}
 
-Rust application template.
+Rust application.
