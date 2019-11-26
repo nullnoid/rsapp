@@ -1,0 +1,10 @@
+# ignore all files
+**/*
+
+# needed files and folders
+!src/
+!Cargo.lock
+!Cargo.toml
+!VERSION
+
+# ignore files again
