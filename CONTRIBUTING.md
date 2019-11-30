@@ -20,7 +20,7 @@ pre-commit install
 
 #### VSCode extension
 
-- [Better TOML](vscode:extension/bungcip.better-toml)
+- [TOML Language Support](vscode:extension/be5invis.toml)
 - [Rust (rls)](vscode:extension/rust-lang.rust)
 - [CodeLLDB](vscode:extension/vadimcn.vscode-lldb)
 
