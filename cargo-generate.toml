@@ -1,2 +1,2 @@
 [template]
-include = ["Cargo.toml", "Dockerfile", "README.md"]
+include = ["Cargo.toml", "Dockerfile", "README.md", "LICENSE"]
