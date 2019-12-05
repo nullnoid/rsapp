@@ -49,7 +49,7 @@ docker-run: docker-build
 	docker run --env-file .env --name ${APP_NAME} -it $(APP_NAME) $(filter-out $@,$(MAKECMDGOALS))
 
 docker-shell: docker-build
-	docker run --rm --env-file .env -it --entrypoint /bin/sh $(APP_NAME):$(SEMVER)
+	docker run --rm --env-file .env -it --entrypoint /bin/sh $(APP_NAME)
 
 docker-tag:
 	git tag v$(SEMVER) | true
